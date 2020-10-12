@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <link href="css/login.css" rel="stylesheet" />
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+
+</head>
+<body>
+<div id="center">
+    <span class="title">账号登录</span>
+    <form id="loginForm">
+    <div class="input">
+        <input type="text" id="userName" placeholder="请输入账号" autocomplete="off">
+        <span class="error" id="userNameError"></span>
+    </div>
+    <div class="input">
+        <input type="password" id="password" placeholder="请输入密码" autocomplete="off">
+        <span class="error" id="passwordError"></span>
+    </div>
+    <div class="input">
+        <input type="text" id="vCode" placeholder="请输入验证码" autocomplete="off">
+        <div class="img"><img id="vCodeImg" src="createVerifyImage.do" onclick="changeCode()"></div>
+        <span class="error" id="vCodeError"></span>
+    </div>
+    <div class="autoLogin">
+        <input id="autoLogin" type="checkbox" name="autoLogin">
+        <span>一周免登陆</span>
+        <a href="register.html" id="register">免费注册</a>
+    </div>
+    <div class="btLogin">
+        <input type="button" value="登        录" id="login" onclick="ajaxCheckLogin()">
+        <span class="error" id="checkError"></span>
+    </div>
+    </form>
+
+</div>
+
+</body>
+</html>

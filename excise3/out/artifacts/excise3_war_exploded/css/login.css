@@ -1,0 +1,98 @@
+#center{
+    border:1px solid darkgray;
+    border-radius: 15px;
+    height: 330px;
+    width: 400px;
+    margin-left: 37%;
+    margin-top: 10%;
+    padding-top: 20px;
+}
+.title{
+    height: 20px;
+    color: #4D5E9F;
+    font-size: 20px;
+    padding-left: 40px;
+
+}
+#loginForm{
+    width: 400px;
+    height: 280px;
+}
+
+.input{
+    height: 60px;
+    width: 400px;
+}
+input{
+    border: solid darkgray 1px;
+    border-radius: 8px;
+    text-indent: 27px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 37px;
+}
+#userName{
+    background-image: url("../images/userName.png");
+    background-position: 2px center;
+    width: 280px;
+    height: 35px;
+    background-repeat: no-repeat;
+}
+#password{
+    background-image: url("../images/password.png");
+    background-position: 2px center;
+    width: 280px;
+    height: 35px;
+    background-repeat: no-repeat;
+}
+#vCode{
+    background-image: url("../images/password.png");
+    background-position: 2px center;
+    width: 180px;
+    height: 35px;
+    background-repeat: no-repeat;
+}
+.img{
+    padding-top: 21px;
+    padding-right: 75px;
+    width: 100px;
+    height: 35px;
+    float: right;
+}
+#vCodeImg{
+    width: 100px;
+    height: 35px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.autoLogin{
+    color: #4D5E9F;
+    font-size: 12px;
+    width: 363px;
+    height: 20px;
+    display: block;
+}
+#register{
+    text-decoration: none;
+    padding-top: 20px;
+    color: #4D5E9F;
+    font-size: 12px;
+    float: right;
+
+}
+.error{
+    padding-left: 37px;
+    height: 20px;
+    width: 363px;
+    display: block;
+    color: red;
+}
+#login{
+    text-indent: 0;
+    width: 285px;
+    height: 40px;
+    background-color: greenyellow;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}

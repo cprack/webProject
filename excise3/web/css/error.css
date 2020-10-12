@@ -1,0 +1,40 @@
+#error_father{
+    border-style: solid;
+    border-radius: 6px;
+    border-color: darkgray;
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 740px;
+    height: 320px;
+
+}
+
+#error_left{
+    height: 320px;
+    width: 340px;
+    background-image: url("../images/error.png");
+    float: left;
+}
+#error_right1{
+    padding-top:70px;
+    padding-left: 30px;
+    color: red;
+    font-size: 22px;
+    height:40px;
+    width:370px;
+
+    float: left;
+}
+#error_right2{
+    padding-left: 30px;
+    padding-top: 20px;
+    color: black;
+    font-size: 22px;
+    width:370px;
+    height: 190px;
+    float:left;
+}
+
+#a1{
+    color: red;
+}

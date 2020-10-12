@@ -1,0 +1,77 @@
+input::-webkit-input-placeholder {
+    /* placeholder颜色 */
+    color: #aab2bd;
+    /* placeholder字体大小 */
+    font-size: 13px;
+}
+
+input{
+    outline-color:red;
+}
+#role{
+    color: red;
+}
+#main_top{
+    background-color: azure;
+    border-bottom: 12px solid black;
+    height: 150px;
+    width: 100%;
+}
+
+#main_topLeft{
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 55%;
+    height: 130px;
+    float: left;
+}
+#main_topRight1{
+
+    color: black;
+    width: 43%;
+    height: 30px;
+    text-align: right;
+    font-size: 20px;
+    float: left;
+}
+#main_topRight2{
+    width: 43%;
+    padding-top: 50px;
+    height: 40px;
+    float: left;
+    text-align: left;
+}
+.main_class1{
+    border-right: 1px solid black;
+    padding-top: 10px;
+    text-align: center;
+    width: 100px;
+    height: 38px;
+    float: left;
+}
+.main_class2{
+    padding-top: 10px;
+    text-align: center;
+    width: 100px;
+    height: 38px;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color:yellow;
+}
+
+a.a2:link{
+    color: black;
+}
+a.a2:visited{
+    color: black;
+}
+a.a2:hover{
+    color:yellow;
+}

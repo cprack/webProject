@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录界面</title>
+    <link href="./css/login.css" rel="stylesheet" type="text/css" />
+    <script language="JavaScript" type="text/javascript" src="./js/login.js"></script>
+</head>
+<body>
+<form action="/excise2/login.do" method="post">
+
+    <div id="center">
+        <div id = log>账号登录</div>
+        <div id="pad-user">
+            <input type="text" id = "user" name="userName" autocomplete="off" placeholder="请输入账号">
+        </div>
+        <div id="pad-password">
+            <input type= "password" id="password" name="password" autocomplete="off" placeholder="请输入密码">
+        </div>
+        <div id="pad-verify">
+            <input type="text" id="verify" name="verify" autocomplete="off" placeholder="请输入验证码">
+        </div>
+        <div>
+            <img src="ImageServlet.do" onclick="changeCode()" id = "img" title="看不清，换一张" />
+        </div>
+        <div id="pad_isLogin">
+            <input type="checkbox" id="isLogin" name="isLogin" value="一周免登陆">一周以内免登陆
+        </div>
+        <div id="sub">
+            <input type="submit" id="login" value="立即登录">
+        </div>
+
+    </div>
+
+</form>
+
+</body>
+</html>

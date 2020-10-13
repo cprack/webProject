@@ -81,6 +81,7 @@ input{
 
 }
 .error{
+    font-size: 12px;
     padding-left: 37px;
     height: 20px;
     width: 363px;

@@ -7,355 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31026b94-44ac-46c2-976e-59f3e569852f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/webProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/.idea/$PROJECT_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/.idea/artifacts/excise1_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/.idea/excise1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/excise1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/classes/META-INF/excise1.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/classes/controller/DownloadController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/classes/controller/GetDownListController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/classes/controller/ImageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/classes/controller/QuitController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/classes/dao/CreateImage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/classes/dao/DownloadDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/classes/tools/JdbcUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/classes/vo/Download.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/classes/vo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/lib/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.49.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/css/download.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/css/error.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/download.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/images/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/images/idea插件.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/images/main_center.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/images/main_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/images/password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/images/verifyCode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/images/学习心得.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/images/星等.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/images/电影.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/images/论文.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/images/课堂笔记.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/images/音乐.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/js/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/resources/idea插件.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/resources/学习心得.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/resources/电影.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/resources/论文.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/resources/课堂笔记.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/out/artifacts/excise1_war_exploded/resources/音乐.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/src/controller/GetDownListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/src/controller/ImageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/src/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/src/controller/QuitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/src/dao/CreateImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/src/dao/DownloadDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/src/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/src/tools/JdbcUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/src/vo/Download.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/src/vo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/classes/META-INF/excise1.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/classes/controller/DownloadController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/classes/controller/GetDownListController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/classes/controller/ImageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/classes/controller/QuitController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/classes/dao/CreateImage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/classes/dao/DownloadDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/classes/tools/JdbcUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/classes/vo/Download.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/classes/vo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/lib/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/lib/mysql-connector-java-5.1.49.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/css/download.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/css/error.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/download.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/images/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/images/idea插件.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/images/main_center.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/images/main_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/images/password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/images/verifyCode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/images/学习心得.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/images/星等.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/images/电影.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/images/论文.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/images/课堂笔记.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/images/音乐.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/js/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/resources/idea插件.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/resources/学习心得.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/resources/电影.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/resources/论文.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/resources/课堂笔记.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise1/web/resources/音乐.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$PROJECT_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/excise2_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excise2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/controller/DownloadController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/controller/GetDownListController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/controller/ImageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/controller/PersonalCenterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/controller/QuitController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/controller/ResourcesManageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/controller/UserManageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/dao/CreateImage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/dao/DownloadDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/filter/OrdinaryFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/tools/JdbcUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/vo/Download.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/classes/vo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/lib/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.49.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/css/download.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/css/error.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/css/personal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/css/resources.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/css/userManage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/download.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/1star.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/2star.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/3star.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/4star.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/5star.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/idea插件.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/main_center.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/main_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/verifyCode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/学习心得.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/电影.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/论文.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/课堂笔记.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/images/音乐.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/js/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/js/powerError.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/personal.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/powerError.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/resources/idea插件.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/resources/学习心得.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/resources/电影.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/resources/论文.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/resources/课堂笔记.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/resources/音乐.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/resourcesManage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/excise2_war_exploded/userManage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/DownloadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/GetDownListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/ImageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/PersonalCenterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/QuitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/ResourcesManageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/UserManageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/CreateImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/DownloadDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filter/OrdinaryFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tools/JdbcUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/Download.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/controller/DownloadController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/controller/GetDownListController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/controller/ImageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/controller/PersonalCenterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/controller/QuitController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/controller/ResourcesManageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/controller/UserManageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/CreateImage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/DownloadDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/filter/OrdinaryFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/tools/JdbcUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/vo/Download.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/vo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.49.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/download.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/error.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/personal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/resources.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/userManage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/download.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/1star.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/2star.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/3star.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/4star.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/5star.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/idea插件.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/main_center.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/main_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/verifyCode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/学习心得.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/电影.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/论文.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/课堂笔记.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/音乐.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/powerError.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/personal.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/powerError.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/idea插件.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/学习心得.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/电影.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/论文.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/课堂笔记.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/音乐.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resourcesManage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/userManage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../excise3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../excise1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/controller/DownloadController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/controller/GetDownListController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/controller/ImageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/controller/PersonalCenterController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/controller/QuitController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/controller/ResourcesManageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/controller/UserManageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/dao/CreateImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/dao/DownloadDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/filter/OrdinaryFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tools/JdbcUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/vo/Download.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/vo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/META-INF/excise1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/controller/DownloadController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/controller/GetDownListController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/controller/ImageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/controller/PersonalCenterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/controller/QuitController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/controller/ResourcesManageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/controller/UserManageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/dao/CreateImage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/dao/DownloadDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/filter/OrdinaryFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/tools/JdbcUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/vo/Download.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/classes/vo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/jsp-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/mysql-connector-java-5.1.49.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/servlet-api.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/download.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/error.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/personal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/resources.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/css/userManage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/download.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/error.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/1star.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/2star.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/3star.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/4star.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/5star.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/idea插件.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/main_center.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/main_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/password.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/verifyCode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/学习心得.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/电影.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/论文.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/课堂笔记.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/images/音乐.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/js/powerError.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/main.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/personal.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/powerError.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/resources/idea插件.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/resources/学习心得.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/resources/电影.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/resources/论文.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/resources/课堂笔记.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/resources/音乐.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/resourcesManage.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/userManage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../excise3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -487,11 +139,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -509,7 +156,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602505346570</updated>
-      <workItem from="1602505350585" duration="1342000" />
+      <workItem from="1602505350585" duration="1343000" />
+      <workItem from="1602558360709" duration="19000" />
     </task>
     <servers />
   </component>
@@ -529,61 +177,65 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="523" y="117" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1602505524377" />
-    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1602505559486">
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1602558378800">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602505559486" />
-    <state width="1024" height="144" key="GridCell.Tab.0.bottom" timestamp="1602505887508">
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602558378800" />
+    <state width="1024" height="144" key="GridCell.Tab.0.bottom" timestamp="1602508434373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602505887508" />
-    <state width="1024" height="144" key="GridCell.Tab.0.center" timestamp="1602505887508">
+    <state width="1024" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602508434373" />
+    <state width="1024" height="144" key="GridCell.Tab.0.center" timestamp="1602508434373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="144" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602505887508" />
-    <state width="1024" height="144" key="GridCell.Tab.0.left" timestamp="1602505887508">
+    <state width="1024" height="144" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602508434373" />
+    <state width="1024" height="144" key="GridCell.Tab.0.left" timestamp="1602508434373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="144" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602505887508" />
-    <state width="1024" height="144" key="GridCell.Tab.0.right" timestamp="1602505887508">
+    <state width="1024" height="144" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602508434373" />
+    <state width="1024" height="144" key="GridCell.Tab.0.right" timestamp="1602508434373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="144" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602505887508" />
-    <state width="1024" height="144" key="GridCell.Tab.1.bottom" timestamp="1602505887448">
+    <state width="1024" height="144" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602508434373" />
+    <state width="1024" height="144" key="GridCell.Tab.1.bottom" timestamp="1602508434374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="144" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602505887448" />
-    <state width="1024" height="144" key="GridCell.Tab.1.center" timestamp="1602505887447">
+    <state width="1024" height="144" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602508434374" />
+    <state width="1024" height="144" key="GridCell.Tab.1.center" timestamp="1602508434374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="144" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602505887447" />
-    <state width="1024" height="144" key="GridCell.Tab.1.left" timestamp="1602505887447">
+    <state width="1024" height="144" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602508434374" />
+    <state width="1024" height="144" key="GridCell.Tab.1.left" timestamp="1602508434374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="144" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602505887447" />
-    <state width="1024" height="144" key="GridCell.Tab.1.right" timestamp="1602505887448">
+    <state width="1024" height="144" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602508434374" />
+    <state width="1024" height="144" key="GridCell.Tab.1.right" timestamp="1602508434374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="144" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602505887448" />
-    <state width="1024" height="144" key="GridCell.Tab.2.bottom" timestamp="1602505887448">
+    <state width="1024" height="144" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602508434374" />
+    <state width="1024" height="144" key="GridCell.Tab.2.bottom" timestamp="1602508434374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="144" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602505887448" />
-    <state width="1024" height="144" key="GridCell.Tab.2.center" timestamp="1602505887448">
+    <state width="1024" height="144" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602508434374" />
+    <state width="1024" height="144" key="GridCell.Tab.2.center" timestamp="1602508434374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="144" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1602505887448" />
-    <state width="1024" height="144" key="GridCell.Tab.2.left" timestamp="1602505887448">
+    <state width="1024" height="144" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1602508434374" />
+    <state width="1024" height="144" key="GridCell.Tab.2.left" timestamp="1602508434374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="144" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1602505887448" />
-    <state width="1024" height="144" key="GridCell.Tab.2.right" timestamp="1602505887448">
+    <state width="1024" height="144" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1602508434374" />
+    <state width="1024" height="144" key="GridCell.Tab.2.right" timestamp="1602508434374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="144" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1602505887448" />
+    <state width="1024" height="144" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1602508434374" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1602505562515">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602505562515" />
+    <state x="435" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1602558360321">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="435" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602558360321" />
   </component>
 </project>

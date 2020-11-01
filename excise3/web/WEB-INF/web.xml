@@ -5,11 +5,11 @@
          version="4.0">
 
     <filter>
-        <filter-name>OrdinaryFilter</filter-name>
+        <filter-name>Filter</filter-name>
         <filter-class>filter.Filter</filter-class>
         <init-param>
             <param-name>notFilterUrl</param-name>
-            <param-value>/createVerifyImage.do,/ajaxLoginCheck.do,/quit.do,/checkExist.do,/provinceCity.do,/register.do</param-value>
+            <param-value>/createVerifyImage.do,/ajaxLoginCheck.do,/quit.do,/checkExist.do,/provinceCity.do,/register.do </param-value>
         </init-param>
         <init-param>
             <param-name>mustFilterUrl</param-name>
@@ -17,7 +17,7 @@
         </init-param>
     </filter>
     <filter-mapping>
-        <filter-name>OrdinaryFilter</filter-name>
+        <filter-name>Filter</filter-name>
         <url-pattern>*.jsp</url-pattern>
         <url-pattern>*.do</url-pattern>
     </filter-mapping>

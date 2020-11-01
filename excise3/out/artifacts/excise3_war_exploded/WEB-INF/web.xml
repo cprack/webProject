@@ -9,7 +9,7 @@
         <filter-class>filter.Filter</filter-class>
         <init-param>
             <param-name>notFilterUrl</param-name>
-            <param-value>/createVerifyImage.do,/ajaxLoginCheck.do,/quit.do,/checkExist.do,/provinceCity.do,/register.do</param-value>
+            <param-value>/createVerifyImage.do,/ajaxLoginCheck.do,/quit.do,/checkExist.do,/provinceCity.do,/register.do </param-value>
         </init-param>
         <init-param>
             <param-name>mustFilterUrl</param-name>

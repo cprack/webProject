@@ -30,6 +30,8 @@ public class SearchDao {
         StringBuffer sql = new StringBuffer();
         int i = 0;
         ArrayList<User> users = new ArrayList<>();
+        //数据库虽然吧城市表，省份表和用户表分开，但用户表里仍含有省份城市信息
+        //设计比较简单，所以下面的数据库查询代码相对简单
         sql.append("select * from t_user");
         if (userName != "") {
             sql.append(" where userName like '%").append(userName).append("%'");

@@ -82,6 +82,7 @@
             <input type="text" id="chrName" placeholder="输入姓名" autocomplete="off">
             <input type="text" id="email" placeholder="输入邮箱" autocomplete="off">
             <input type="text" id="province" placeholder="输入省份" autocomplete="off">
+            <input type="text" id="cities" placeholder="输入城市" autocomplete="off">
         </form>
         <div id="Button">
             <a href="#" id="searchBt">查找</a>

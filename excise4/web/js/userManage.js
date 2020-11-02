@@ -137,7 +137,7 @@ function init(){
         url:"userManage.do",
         data:{INIT:"init"},
         dataType:"json",
-        success:function (response,_scope) {
+        success:function (response) {
             let userData = response;
             let rows = userData.rows;
             let total = userData.total;
@@ -284,6 +284,7 @@ $(document).ready(function () {
         $("#chrName").val("");
         $("#email").val("");
         $("#province").val("");
+        $("#cities").val("");
     })
     $("#addBt").click(function () {
         ShowDiv("MyDiv","fade");
@@ -511,5 +512,48 @@ $(document).ready(function () {
             $("#password").blur();
             $("#passwordOk").blur();
         }
+    })
+    $("#searchBt").click(function () {
+        let data = {
+            userName:$("#userName").val(),
+            chrName:$("#chrName").val(),
+            email:$("#email").val(),
+            province:$("#province").val(),
+            city:$("#cities").val()
+        }
+        $.ajax({
+            type:"post",
+            url:"search.do",
+            data:data,
+            data_Type:"json",
+            success:function (response) {
+                let userData = JSON.parse(response);
+                let rows = userData.rows;
+                let total = userData.total;
+                let url = location.search;
+                let str1 = url.substr(1);
+                let str2 =str1.split("&");
+                if(str2 == ""){
+                    pageNumber = 1;
+                    pageSize = 10;
+                }else {
+                    let str3 = str2[0].split("=");
+                    let str4 = str2[1].split("=");
+                    pageNumber = str3[1];
+                    pageSize = str4[1];
+                }
+                pageCount = Math.ceil(total / pageSize);
+                $("#pageNumber").text(pageNumber);
+                $("#pageCount").text(pageCount);
+                $("#pageSize").val(pageSize);
+                $("#total").text(total);
+                $("tbody").empty();
+                tbody(rows,pageSize,pageNumber,total);
+                page(pageSize,pageNumber,pageCount,total);
+                $('tbody tr:even').addClass('tr_even');
+                $('tbody tr:odd').addClass('tr_odd');
+
+            }
+        })
     })
 })

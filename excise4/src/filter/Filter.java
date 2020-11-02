@@ -4,13 +4,9 @@ import dao.UserDao;
 import vo.User;
 
 import javax.servlet.*;
-import javax.servlet.annotation.WebFilter;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import java.awt.geom.FlatteningPathIterator;
 import java.io.IOException;
 
 /**
@@ -23,7 +19,7 @@ public class Filter implements javax.servlet.Filter {
     private int FLAG = 0;
     private String MANAGER = "管理员";
     @Override
-    public void init(FilterConfig filterConfig) throws ServletException {
+    public void init(FilterConfig filterConfig){
         //从配置文件里获取不需要过滤的网站地址
         notFilterPath = filterConfig.getInitParameter("notFilterUrl");
         mustFilterPath = filterConfig.getInitParameter("mustFilterUrl");
@@ -91,7 +87,7 @@ public class Filter implements javax.servlet.Filter {
                     if(mustFilterPath.contains(path)){
                         //权限不够
                         request.getSession().setAttribute("errorMsg","您的权限不够，不能访问该资源");
-                        request.getRequestDispatcher("/powerError.jsp").forward(request,(HttpServletResponse)servletResponse);
+                        request.getRequestDispatcher("/powerError.jsp").forward(request,servletResponse);
                     }else {
                         //权限足够
                         filterChain.doFilter(servletRequest,servletResponse);
@@ -99,7 +95,7 @@ public class Filter implements javax.servlet.Filter {
                 }
             }else{
                 request.getSession().setAttribute("errorMsg","您尚未登录，不能访问该资源");
-                request.getRequestDispatcher("/error.jsp").forward(request,(HttpServletResponse)servletResponse);
+                request.getRequestDispatcher("/error.jsp").forward(request,servletResponse);
 
             }
         }else {

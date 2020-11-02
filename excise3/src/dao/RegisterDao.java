@@ -53,6 +53,5 @@ public class RegisterDao {
         pst.setString(6,province);
         pst.setString(7,city);
         pst.executeUpdate();
-
     }
 }

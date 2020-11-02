@@ -39,8 +39,6 @@ public class RegisterController extends HttpServlet {
             out.flush();
             out.close();
         }
-
-
     }
 
     @Override

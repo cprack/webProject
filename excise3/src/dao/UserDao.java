@@ -37,7 +37,6 @@ public class UserDao {
 
         pst = con.prepareStatement(sql);
         pst.setString(1,userName);
-
         ResultSet rs = pst.executeQuery();
         if(rs.next()){
             user.setUserName(rs.getString("userName"));

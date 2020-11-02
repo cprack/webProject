@@ -132,6 +132,7 @@ function page(pageSize,pageNumber,pageCount,total) {
     $("#pageNav").append(str);
 }
 function init(){
+    
     $.ajax({
         type:"post",
         url:"userManage.do",

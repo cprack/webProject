@@ -16,22 +16,18 @@ import java.io.IOException;
 @WebServlet("/downloadRequest.do")
 public class GetDownListController extends HttpServlet {
     private static final String jump1 = "jump_download";
-    private static final String jump2 = "jump_main";
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException{
 
         String id = request.getParameter("id");
-        if(jump1.equals(id)){
+        if(jump1.equals(id)) {
             //如果接收到跳转到下载页面请求
             //从数据库读取信息到数组
             //转发给download.jsp页面
             HttpSession session = request.getSession();
             Object downloads = new DownloadDao().get();
-            session.setAttribute("downloads",downloads);
+            session.setAttribute("downloads", downloads);
             request.getRequestDispatcher("/download.jsp").forward(request, response);
-        }else if(jump2.equals(id)){
-            //如果接收到挑战到主页面的请求，则直接跳转
-            request.getRequestDispatcher("/main.jsp").forward(request, response);
         }
 
     }

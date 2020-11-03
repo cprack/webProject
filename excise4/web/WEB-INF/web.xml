@@ -13,7 +13,7 @@
         </init-param>
         <init-param>
             <param-name>mustFilterUrl</param-name>
-            <param-value>/resourcesManage.do,/userManage.do,/search.do,/updateUser.do</param-value>
+            <param-value>/resourcesManage.do,/userManage.do,/search.do,/updateUser.do,/resourcesManage.jsp,/userManage.jsp</param-value>
         </init-param>
     </filter>
     <filter-mapping>

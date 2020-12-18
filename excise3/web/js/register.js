@@ -215,7 +215,5 @@ $(document).ready(function () {
             $("#passwordOk").blur();
         }
     })
-
-
 })
 

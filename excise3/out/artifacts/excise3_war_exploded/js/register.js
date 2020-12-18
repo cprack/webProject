@@ -1,6 +1,3 @@
-
-
-
 let userName_correct
 let chrName_correct
 let email_correct
@@ -190,7 +187,7 @@ $(document).ready(function () {
             chrName:$("#chrName").val(),
             email:$("#email").val(),
             province:$("#province").text(),
-            cite:$("#city").text(),
+            city:$("#city").text(),
             password:$("#password").val(),
             passwordOk:$("#passwordOk").val()
         };
